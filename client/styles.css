@@ -1,3 +1,80 @@
 body {
-    background-color: orangered;
+    background-color: #5db9ff;
+    font-family: rubik;
+    color: white;
+    text-align: center;
 }
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 3rem;
+    color: #181818;
+    font-family: play;
+}
+
+h3 {
+    color: #181818;
+    font-family: play;
+}
+
+h4 {
+    color: #181818;
+    font-family: play;
+}
+
+img {
+    height: 3rem;
+    width: auto;
+}
+
+.yellow-mart {
+    background-color: #F4DF9D;
+}
+
+.orange-mart {
+    background-color: #F2CA9C;
+}
+
+#mart {
+    text-transform: capitalize;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: darkslategrey;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#mart:hover {
+    animation: bounce 0.5s linear;
+    }
+
+@keyframes bounce {
+    20%{
+        transform: translateY(-6px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-2px);
+    }
+    80%{
+        transform: translateY(0px;)
+    }
+}
+
+
+.mart {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+/* #fbd743-yellow, #363b81 dark blue/violet */
+/* F2CA9C orange/  F4DF9D pokemart yellow /pokemart green 9CE8B2*/
