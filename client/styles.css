@@ -32,24 +32,24 @@ img {
 
 .yellow-mart {
     background-color: #F4DF9D;
-}
-
-.orange-mart {
-    background-color: #F2CA9C;
-}
-
-#mart {
-    text-transform: capitalize;
     padding: 1rem;
-    background-color: #f4f4f4;
-    color: darkslategrey;
-    font-size: 1.5rem;
-    font-weight: bold;
+
     text-align: center;
     border-radius: 10%;
 }
 
-#mart:hover {
+.orange-mart {
+    background-color: #F2CA9C;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.yellow-mart:hover {
+    animation: bounce 0.5s linear;
+    }
+
+.orange-mart:hover {
     animation: bounce 0.5s linear;
     }
 
