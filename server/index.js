@@ -15,6 +15,7 @@ app.get('/js', (req, res) => {
     res.sendFile(path.join(__dirname, './public/main.js'))
   })
 
+
 //environmental variables
 //env sensitive information not shared with github
 const port = process.env.PORT || 4400
