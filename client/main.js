@@ -1,4 +1,20 @@
+enterPokemart = document.querySelector("enter-button")
 
+// function enterMart () {
+//     console.log("hello!")
+// };
+
+// enterPokemart.addEventListener("click", enterMart)
+
+//toggle on and off
+function myFunction() {
+    let x = document.querySelector(".mart");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
 // secretButton = document.getElementById("secret")
 
