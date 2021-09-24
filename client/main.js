@@ -7,14 +7,15 @@ enterPokemart = document.querySelector("enter-button")
 // enterPokemart.addEventListener("click", enterMart)
 
 //toggle on and off
-function myFunction() {
-    let x = document.querySelector(".mart");
+function enterMart() {
+    let x = document.querySelector(".yellow-mart");
     if (x.style.display === "none") {
-      x.style.display = "block";
+      x.style.display = "grid";
     } else {
       x.style.display = "none";
     }
   }
+
 
 // secretButton = document.getElementById("secret")
 
