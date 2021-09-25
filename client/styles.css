@@ -103,6 +103,9 @@ img {
     grid-gap: 20px;
 }
 
+.hidden-mart {
+    visibility: hidden;
+}
 
 
 /* #fbd743-yellow, #363b81 dark blue/violet */

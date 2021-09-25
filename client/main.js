@@ -1,20 +1,31 @@
-enterPokemart = document.querySelector("enter-button")
 
-// function enterMart () {
-//     console.log("hello!")
-// };
+// pressEnter = document.querySelector("enter-mart");
 
-// enterPokemart.addEventListener("click", enterMart)
+// checkPokeball = document.querySelector("find-pokeballs")
+
+function enterMart () {
+    let enter = document.querySelector(".hidden-mart");
+    if (enter.style.visibility === "hidden") {
+        enter.style.visibility = "visible";
+    } else {
+        enter.style.visibility === "hidden";
+  }
+};
+
+
 
 //toggle on and off
-function enterMart() {
-    let x = document.querySelector(".yellow-mart");
-    if (x.style.display === "none") {
-      x.style.display = "grid";
-    } else {
-      x.style.display = "none";
+function checkPokeballs() {
+    let yellow = document.querySelectorAll(".yellow-mart");
+    for (let i = 0; i < yellow.length; i++) {
+      if (yellow[i].style.display === "none") {
+        yellow[i].style.display = "grid";
+      } else {
+        yellow[i].style.display = "none";
     }
   }
+}
+
 
 
 // secretButton = document.getElementById("secret")

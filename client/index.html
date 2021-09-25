@@ -15,79 +15,80 @@
 
         <h1> Genne's Pokemart </h1> 
         <img src="./assets/Pokemart.png" id="logo"></img>
-        <button class="enter-button" onclick="enterMart()"> Enter Pokemart </button>
-
+        <button id="enter-mart" onclick="enterMart()"> Enter PokeMart</button>
     </header>
 
     <!-- enter mart button opens up options, 
     then can choose pokeballs or other -->
 
+    <button class="find-pokeballs" onclick="checkPokeballs()"> See Pokeballs </button>
 
 
-<div class="mart"> 
+<div class = "hidden-mart">
+    <div class="mart"> 
+            <div class="yellow-mart">
+                <h2 id="item-name"> POké BALL </h2>
+                <img src="./assets/pokeball.webp"></img>
+                <h3> Catch Rate: 1x </h3>
+                <h4> $ 200  </h4>
+            </div>
 
-        <div class="yellow-mart">
-            <h2 id="item-name"> POké BALL </h2>
-            <img src="./assets/pokeball.webp"></img>
-            <h3> Catch Rate: 1x </h3>
-            <h4> $ 200  </h4>
-        </div>
+            <div class="yellow-mart"> 
+                <h2 id="item-name"> NEST BALL  </h2>
+                <img src="./assets/nestball.webp"> </img>
+                <h3> Works better on Water & Bug-type Pokémon </h3>
+                <h4> $ 900  </h4>
+            </div>
 
-        <div class="yellow-mart"> 
-            <h2 id="item-name"> NEST BALL  </h2>
-            <img src="./assets/nestball.webp"> </img>
-            <h3> Works better on Water & Bug-type Pokémon </h3>
-            <h4> $ 900  </h4>
-        </div>
+            <div class="yellow-mart"> 
+                <h2 id="item-name"> GREAT BALL  </h2>
+                <img src="./assets/greatball.webp"> </img>
+                <h3> Gives a higher catch rate than a normal Pokéball. Catch rate: 1.5x </h3>
+                <h4> $ 500  </h4>
+            </div>
 
-        <div class="yellow-mart"> 
-            <h2 id="item-name"> GREAT BALL  </h2>
-            <img src="./assets/greatball.webp"> </img>
-            <h3> Gives a higher catch rate than a normal Pokéball. Catch rate: 1.5x </h3>
-            <h4> $ 500  </h4>
-        </div>
+            <div class="yellow-mart">
+                <h2 id="item-name"> ULTRA BALL </h2>
+                <img src="./assets/ultraball.webp"> </img>
+                <h3> Higher catch rate: 2x </h3>
+                <h4> $ 1,200  </h4>
+            </div>
 
-        <div class="yellow-mart">
-            <h2 id="item-name"> ULTRA BALL </h2>
-            <img src="./assets/ultraball.webp"> </img>
-            <h3> Higher catch rate: 2x </h3>
-            <h4> $ 1,200  </h4>
-        </div>
+            <div class="orange-mart"> 
+                <h2 id="item-name"> ANTIDOTE </h2>
+                <img src="./assets/antidote.webp"> </img> 
+                <h3> Removes Poison effects from a Pokémon </h3>
+                <h4> $ 100 </h4>
+            </div>
 
-        <div class="orange-mart"> 
-            <h2 id="item-name"> ANTIDOTE </h2>
-            <img src="./assets/antidote.webp"> </img> 
-            <h3> Removes Poison effects from a Pokémon </h3>
-            <h4> $ 100 </h4>
-        </div>
+            <div class="orange-mart">
+                <h2 id="item-name"> HYPER POTION </h2>
+                <img src="./assets/hyperpotion.webp"> </img>
+                <h3> Restores 200 HP to an Injured Pokémon </h3>
+                <h4> $ 1,200 </h4>
+            </div>
 
-        <div class="orange-mart">
-            <h2 id="item-name"> HYPER POTION </h2>
-            <img src="./assets/hyperpotion.webp"> </img>
-            <h3> Restores 200 HP to an Injured Pokémon </h3>
-            <h4> $ 1,200 </h4>
-        </div>
+            <div class="orange-mart"> 
+                <h2 id="item-name"> PARALYZE HEAL </h2>
+                <img src="./assets/paralyzeheal.webp"> </img>
+                <h3> Removes Paralyze effect from a Pokémon </h3>
+                <h4> $ 200 </h4>
+            </div>
 
-        <div class="orange-mart"> 
-            <h2 id="item-name"> PARALYZE HEAL </h2>
-            <img src="./assets/paralyzeheal.webp"> </img>
-            <h3> Removes Paralyze effect from a Pokémon </h3>
-            <h4> $ 200 </h4>
-        </div>
+            <div class="orange-mart">
+                <h2 id="item-name"> REVIVE </h2>
+                <img src="./assets/revive.webp"> </img>
+                <h3> Restores a fainted Pokémon to half health </h3>
+                <h4> $ 3,000 </h4>
+            </div>
 
-        <div class="orange-mart">
-            <h2 id="item-name"> REVIVE </h2>
-            <img src="./assets/revive.webp"> </img>
-            <h3> Restores a fainted Pokémon to half health </h3>
-            <h4> $ 3,000 </h4>
-        </div>
-
-        <div class="green-mart"> 
-            <h2 id="item-name"> FIRE STONE </h2>
-            <img src="./assets/paralyzeheal.webp"> </img>
-            <h3> Evolves Vulpix , Growlithe and Eevee </h3>
-            <h4> $ 10,000 </h4>
-        </div>
+            <div class="green-mart"> 
+                <h2 id="item-name"> FIRE STONE </h2>
+                <img src="./assets/paralyzeheal.webp"> </img>
+                <h3> Evolves Vulpix , Growlithe and Eevee </h3>
+                <h4> $ 10,000 </h4>
+            </div>
+    </div>
 </div>
 <!-- 
         <button id="secret"> Secret Button </button> -->
