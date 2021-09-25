@@ -11,8 +11,12 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, "../index.html"))
 })
 
+app.get('/secretroom', (req, res) => { 
+    res.sendFile(path.join(__dirname, "../secretroom.html"))
+})
+
 app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/main.js'))
+    res.sendFile(path.join(__dirname, './main.js'))
   })
 
 

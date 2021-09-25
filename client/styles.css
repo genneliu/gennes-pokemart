@@ -71,11 +71,22 @@ img {
     border-radius: 10%;
 } 
 
+.green-mart {
+    background-color: #9CE8B2;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10%;
+} 
+
 .yellow-mart:hover {
     animation: bounce 0.5s linear;
     }
 
 .orange-mart:hover {
+    animation: bounce 0.5s linear;
+    }
+
+.green-mart:hover {
     animation: bounce 0.5s linear;
     }
 
@@ -103,9 +114,9 @@ img {
     grid-gap: 20px;
 }
 
-.hidden-mart {
+/* .hidden-mart {
     visibility: hidden;
-}
+} */
 
 
 /* #fbd743-yellow, #363b81 dark blue/violet */
